@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- TODO: create an HTML  -->
+    <h1>My First Web Page</h1>
+    <p>My first paragraph</p>
+
+    <!-- TODO: Using document.write() -->
+    <!-- Using document.write() after an HTML document is loaded, will delete all existing HTML -->
+    <!--The document.write() method should only be used for testing  -->
+    <button type="button" onclick="document.write(5+6)">Try it for document.write(5+6)</button>
+    
+    <!-- TODO: Using window.alert() and alert()-->
+    <!-- You can skip the window keyword
+    In JavaScript, the window object is the global scope object. This mean that variables, properties, 
+    and method by default belong to the window object. This
+    also means that specifying the window keyword is optional -->
+    <button type="button" onclick="window.alert(5+6)">Try it for window.alert(5+6)</button>
+    <button type="button" onclick="alert(5+6)">Try it for alert(5+6)</button>
+    
+    <!-- TODO: Using Console.log() -->
+    <!-- For debugging purposes, you can call the console.log() method in the browser to display data -->
+    <button type="button" onclick="console.log(5+6)">Try it for Console.log(5+6)</button>
+    
+    <!-- TODO: Using JavaScript Print -->
+    <!-- JavaScript does not have any print object or print methods -->
+    <!-- You can not access out put devices from JavaScript  -->
+    <!--  The only exception that you can call the window.print() method in the browser
+         to print the content of the current window -->
+    <button type="button" onclick="window.print()">Print this page</button>
+    <script src="/Syntax/basic.js"></script>
+</body>
+</html>
